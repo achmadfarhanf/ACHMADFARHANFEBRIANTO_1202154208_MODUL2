@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ACHMAD FARHAN FEBRIANTO_1202154208_MODUL2</string>
+    <string-array name="menu">
+        <item>Pilih Meja</item>
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+    </string-array>
+    <string name="burger">Nasi, Telur, Cinta</string>
+    <string name="chicken">Nasi, Telur, Cinta</string>
+    <string name="cappucino">Sayuran, Bumbu temago, Telur</string>
+    <string name="cola">Mie jawa, Telur, Sosis, Sayur</string>
+    <string name="cupcake">Nasi, Mie Goreng, Daging/Ayam, Telur</string>
+    <string name="milkshake">Nasi, Mie Goreng, Daging/Ayam, Telur</string>
+    <string name="mineralwater">Nasi, Telur, Cinta</string>
+    <string name="pizza">Sayuran, Bumbu temago, Telur</string>
+    <string name="spaghetti">Mie jawa, Telur, Sosis, Sayur</string>
+    <string name="sprite">Nasi, Mie Goreng, Daging/Ayam, Telur</string>
+</resources>

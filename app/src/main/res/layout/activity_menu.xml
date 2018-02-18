@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.example.android.achmadfarhanfebrianto_1202154208_modul2.Menu">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:src="@drawable/fastfoodlogo"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Pilih Menu:"
+        android:textSize="25dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="dinein"
+            android:text="Dine In"
+            android:textSize="20dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="takeaway"
+            android:text="Take away"
+            android:textSize="20dp"
+            />
+
+    </RadioGroup>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pesanmakanan"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="#008e96"
+        android:text="Pesan Makanan"/>\
+
+</LinearLayout>
